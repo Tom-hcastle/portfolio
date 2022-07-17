@@ -11,6 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      
     },
     {
       id: 2,
@@ -62,6 +63,7 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
+                <Link to={{ pathname: "https://github.com/Tom-hcastle/Parallax-effect" }} target="_blank" />
               </div>
             </div>
           ))}
